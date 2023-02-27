@@ -17,7 +17,8 @@ description: |
         - Logging in into your Google account
         - Export to web albums
 
-    - Things that work: everything else
+    - Things that work:
+        - Everything else
 
 icon: snap/gui/picasa.png
 
