@@ -1,20 +1,19 @@
-# PhotoScape Snap
+# Picasa 3.9 Snap
 
-This is the snap for [PhotoScape](http://www.photoscape.org/ps/main/index.php). It works on Ubuntu, Fedora, Debian, and other major Linux distributions.
+This is the snap for [Picasa](https://picasa.google.com/). Google's photo organizer that was discontinued in 2016. It features easy to use picture management with automatic face recognition. Albeit unsupported, it still works fine on modern systems.
 
 This Windows application runs on Linux using the Wine compatibility layer. For that reason, it may not function as expected. If you encounter issues please report in the issue tracker of this repository.
 
-*Published for <img src="http://anything.codes/slack-emoji-for-techies/emoji/tux.png" align="top" width="24" /> with :gift_heart: by Snapcrafters*
 
 ## Install
 
 ```shell
-snap install photoscape
+snap install picasasnap
 ```
 
 ([Don't have snapd installed?](https://snapcraft.io/docs/core/install))
 
-![PhotoScape](screenshot.png?raw=true "PhotoScape")
+![Picasa](snap/gui/picasascreenshot.jpg "Picasa")
 
 ## Reusing this snap
 
@@ -24,4 +23,4 @@ If you have any questions about creating snaps of Windows applications then [pos
 
 ## License
 
-This snap manifest is released under the GPLv2 license. PhotoScape itself is a proprietary application owned by MOOII TECH.
+This snap manifest is released under the GPLv2 license. Picasa itself is a proprietary application owned by Google.
