@@ -1,30 +1,10 @@
-name: photoscape
-title: PhotoScape
-version: "3.7-1"
-summary: PhotoScape is a fun and easy photo editing software to fix and enhance photos.
-description: |
-  PhotoScape is a fun and easy photo editing software that enables you to fix and enhance photos.
-
-  Key Features:
-
-  - Viewer: View photos in your folder, create a slideshow
-  - Editor: resizing, brightness and color adjustment, white balance, backlight correction, frames, balloons, mosaic mode, adding text, drawing pictures, cropping, filters, red eye removal, blooming, paint brush, clone stamp, effect brush
-  - Batch editor: Batch edit multiple photos
-  - Page: Merge multiple photos on the page frame to create one final photo
-  - Combine: Attach multiple photos vertically or horizontally to create one final photo
-  - Animated GIF: Use multiple photos to create a final animated photo
-  - Print: Print portrait shots, carte de visites(CDV), passport photos
-  - Splitter: Slice a photo into several pieces
-  - Screen Capture: Capture your screenshot and save it
-  - Color Picker: Zoom in on images, search and pick a color
-  - Rename: Change photo file names in batch mode
-  - Raw Converter: Convert RAW to JPG
-  - Paper Print: Print lined, graph, music and calendar paper
-  - Face Search: Find similar faces on the Internet
-
-  *Note: This Windows application runs on Linux using the Wine compatibility layer.*
-grade: stable
-icon: snap/gui/photoscape.png
+name: picasa
+title: Picasa
+version: "3.9.141.259"
+summary: "Picasa is free photo management software from Google."
+description: "Picasa is free photo management software from Google that helps you find, edit and share your photos in
+seconds."
+icon: snap/gui/picasa.png
 
 base: core18
 confinement: strict
@@ -42,9 +22,12 @@ apps:
     extensions: [ gnome-3-28 ]
     command: bin/sommelier run-exe
     environment:
-      RUN_EXE: "C:/Program Files (x86)/PhotoScape/PhotoScape.exe"
-      INSTALL_EXE: "$SNAP/PhotoScapeSetup_V3.7.exe"
-      INSTALL_FLAGS: "/S"
+      #RUN_EXE: "C:/Program Files (x86)/PhotoScape/PhotoScape.exe"
+      RUN_EXE: "C:/Program Files (x86)/Google/Picasa3/Picasa3.exe"
+      INSTALL_URL: "https://archive.org/download/picasa-3.9.141.259/picasa39-setup.exe"
+      #INSTALL_EXE: "$SNAP/picasa39-setup.exe"
+      INSTALL_FLAGS: "/S /L"
+      TRICKS: "ie8"
     plugs:
       - home
       - network
