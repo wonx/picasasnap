@@ -1,10 +1,12 @@
-name: picasa
+name: picasa-snap
 title: Picasa
 version: "3.9.141.259"
 summary: "Picasa is free photo management software from Google."
 description: "Picasa is free photo management software from Google that helps you find, edit and share your photos in
 seconds."
 icon: snap/gui/picasa.png
+
+grade: stable
 
 base: core18
 confinement: strict
@@ -18,14 +20,14 @@ environment:
   SOMMELIER_STRICT: "1"                                    # Make Sommelier exit when unset variable is used. (useful to find bugs in sommelier)
 
 apps:
-  picasa:
+  picasa-snap:
     extensions: [ gnome-3-28 ]
     command: bin/sommelier run-exe
     environment:
       RUN_EXE: "C:/Program Files (x86)/Google/Picasa3/Picasa3.exe"
       INSTALL_URL: "https://archive.org/download/picasa-3.9.141.259/picasa39-setup.exe"
       INSTALL_FLAGS: "/S /L"
-      #TRICKS: "ie8"
+      TRICKS: "ie8"
     plugs:
       - home
       - network

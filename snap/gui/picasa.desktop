@@ -2,10 +2,9 @@
 Type=Application
 Encoding=UTF-8
 Name=Picasa
-Comment=Picasa is a cross-platform image organizer and image viewer for organizing and editing digital
-photos.
+Comment=Image organizer and viewer
 Categories=Graphics
-Exec=picasa %F
+Exec=picasa-snap %F
 Icon=${SNAP}/meta/gui/picasa.png
 Terminal=false
 StartupNotify=true
