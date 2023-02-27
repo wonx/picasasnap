@@ -4,6 +4,7 @@ This is the snap for [Picasa](https://picasa.google.com/). Google's photo organi
 
 This Windows application runs on Linux using the Wine compatibility layer. For that reason, it may not function as expected. If you encounter issues please report in the issue tracker of this repository.
 
+![Picasa](snap/gui/picasascreenshot.jpg "Picasa")
 
 ## Install
 
@@ -13,7 +14,7 @@ snap install picasasnap
 
 ([Don't have snapd installed?](https://snapcraft.io/docs/core/install))
 
-![Picasa](snap/gui/picasascreenshot.jpg "Picasa")
+
 
 ## Reusing this snap
 
