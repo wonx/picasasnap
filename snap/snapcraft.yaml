@@ -2,8 +2,23 @@ name: picasa-snap
 title: Picasa
 version: "3.9.141.259"
 summary: "Picasa is free photo management software from Google."
-description: "Picasa is free photo management software from Google that helps you find, edit and share your photos in
-seconds."
+description: |
+    Picasa is free photo management software from Google that helps you find, edit and share your photos in
+    seconds.
+
+    Picasa has file importing and tracking features, as well as tags, facial recognition, and collections for further sorting. It also offers several basic photo editing functions, including color enhancement, red eye reduction, and cropping. Keywords attached to JPEG files in Picasa can be read by other image library software like Adobe Photoshop Album, Adobe Bridge, Adobe Photoshop Lightroom, digiKam, Aperture, and iPhoto.
+
+    *Note: This Windows application runs on Linux using the Wine compatibility layer. This software was discontinued in 2016. However, most features still work on modern systems.*
+
+    - Installation: During the first run, wine will be configured and the actuall installer will be downloaded and installed, this can take several minutes and it's expected. If a "Wine configuration" windows pops up, click "Ok" to proceed with the installation.
+
+    - Things that do NOT work:
+        - *Places* panel
+        - Logging in into your Google account
+        - Export to web albums
+
+    - Things that work: everything else
+
 icon: snap/gui/picasa.png
 
 grade: stable
