@@ -18,14 +18,12 @@ environment:
   SOMMELIER_STRICT: "1"                                    # Make Sommelier exit when unset variable is used. (useful to find bugs in sommelier)
 
 apps:
-  photoscape:
+  picasa:
     extensions: [ gnome-3-28 ]
     command: bin/sommelier run-exe
     environment:
-      #RUN_EXE: "C:/Program Files (x86)/PhotoScape/PhotoScape.exe"
       RUN_EXE: "C:/Program Files (x86)/Google/Picasa3/Picasa3.exe"
       INSTALL_URL: "https://archive.org/download/picasa-3.9.141.259/picasa39-setup.exe"
-      #INSTALL_EXE: "$SNAP/picasa39-setup.exe"
       INSTALL_FLAGS: "/S /L"
       TRICKS: "ie8"
     plugs:
