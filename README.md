@@ -9,7 +9,7 @@ This Windows application runs on Linux using the Wine compatibility layer. For t
 ## Install
 
 ```shell
-snap install picasasnap
+snap install picasa-snap
 ```
 
 ([Don't have snapd installed?](https://snapcraft.io/docs/core/install))
